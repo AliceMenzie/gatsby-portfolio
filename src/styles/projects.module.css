@@ -1,0 +1,51 @@
+.projects {  
+  max-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2rem;
+  
+    
+}
+
+.project {
+    /* max-height: 500px;
+    max-width: 500px; */
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 4px;
+    outline: solid 1px #4F5659;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.project h2{
+    /* color: #6F98C0; */
+    background: -webkit-linear-gradient(45deg, #566C84, #6F98C0, #EEF2F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.hero{
+    font-size: 7em;
+    margin: 1em;
+    animation: grow 1s ease-in-out;
+}
+
+@keyframes grow {
+    0% {
+      font-size: 7em;
+    }
+
+    50% {
+      font-size: 7.5em;
+    }
+  
+    100% {
+        font-size: 7em;
+    }
+  }
