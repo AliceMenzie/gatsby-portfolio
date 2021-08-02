@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from "../../components/Layout"
 import * as styles from "../../styles/projects.module.css"
 import { GatsbyImage, getImage} from "gatsby-plugin-image"
-import { alt } from 'joi'
+
 
 export default function Projects({ data }) {
     console.log(data)
