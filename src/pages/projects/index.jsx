@@ -2,7 +2,8 @@ import { graphql, Link } from 'gatsby'
 import React from 'react'
 import Layout from "../../components/Layout"
 import * as styles from "../../styles/projects.module.css"
-import { GatsbyImage} from "gatsby-plugin-image"
+import { GatsbyImage, getImage} from "gatsby-plugin-image"
+import { alt } from 'joi'
 
 export default function Projects({ data }) {
     console.log(data)
@@ -19,7 +20,7 @@ export default function Projects({ data }) {
                     {projects.map(project => (
                         <Link className={styles.project}  to={"/projects/" + project.frontmatter.slug} key={project.id}>
                             <div>
-                                {/* <GatsbyImage img={project.frontmatter.thumb.childImageSharp.gatsbyImageData} alt="not working"/> */}
+                                <GatsbyImage image={getImage(project.frontmatter.thumb)} alt={project.frontmatter.title} />
                                 <h2>{project.frontmatter.title}</h2>
                                 <p>{project.frontmatter.stack}</p>
                                 <p>{project.frontmatter.deployment}</p>
@@ -45,8 +46,14 @@ query ProjectsPage {
           deployment
           slug
           thumb {
-            childrenImageSharp {
-              gatsbyImageData(width: 200, placeholder: BLURRED)
+            childImageSharp {
+              gatsbyImageData(
+                width: 300
+                blurredOptions: {width: 50}
+                placeholder: BLURRED
+                transformOptions: {cropFocus: CENTER}
+                aspectRatio: 1.5
+              )
             }
           }
         }
