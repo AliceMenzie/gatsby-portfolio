@@ -9,8 +9,8 @@ export default function Footer() {
         <footer >
             <div className={styles.contact}><p>Contact Me</p></div>
             <div className={styles.links}>
-                <div className={styles.link}><a href="https://www.linkedin.com/in/alice-menzie/" target="_blank"><FaLinkedin size={30} /></a> </div>
-                <div ><a className={styles.link} href="https://github.com/AliceMenzie" target="_blank"><FaGithub size={30} /></a></div>
+                <div className={styles.link}><a href="https://www.linkedin.com/in/alice-menzie/" target="_blank" rel="noreferrer"><FaLinkedin size={30} /></a> </div>
+                <div ><a className={styles.link} href="https://github.com/AliceMenzie" target="_blank" rel="noreferrer"><FaGithub size={30} /></a></div>
             </div>
         </footer>
     )
