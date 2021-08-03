@@ -30,7 +30,7 @@ nav {
     /* grid-row-gap: 6px;
     grid-column-gap: 9px; */
     /* margin-left: 0%; */
-    padding-right: 100%;
+    /* padding-right: 100%; */
     background-color: #36363A;
     /* background-color: #4F5659; */
     overflow: hidden;
@@ -44,14 +44,14 @@ nav {
 }
 
 .nav-links {
-    margin-right: 15%;
+    margin-right: 25%;
     align-self: center;
     justify-self: end;
 }
 
 nav a {
     
-    margin: 7.5px;
+    margin: 7.5%;
     color: #6F98C0;
     text-decoration: none;
 }
@@ -73,6 +73,17 @@ footer p {
     animation: move 2s ease-in;
 }
 
+@media only screen and (max-width: 600px) {
+    .logo{
+        font-size: 3em;
+        margin: 1em;
+        animation: move 2s ease-in;
+        overflow: hidden;
+    }
+    
+  }
+  
+
 @keyframes move {
     0% {
       transform: translate(-1000px);
@@ -83,9 +94,37 @@ footer p {
     }
   }
 
-#logo {
+  .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .button {
+      margin: 1em;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    #logo{
+        width: 15em;
+        margin: 1em;
+        animation: move 2s ease-in;
+        overflow: hidden;
+        
+    }
+  }
+
+/* #logo {
     margin: 1em 1em 5em 12em;
-}
+} */
 
 #logo path:nth-child(1){
     stroke-dasharray: 220.6px;
@@ -150,11 +189,11 @@ footer p {
     }
 }
 
-.button {
+/* .button {
     margin-left: 50em;
     animation: appear 2s ease-in;
     
-}
+} */
 .button:hover {
     animation: jiggle 2s;
     animation-iteration-count: infinite;
@@ -179,3 +218,26 @@ footer p {
       0% {opacity: 0;}
       100% {opacity: 100;}
   }
+
+
+  .stack {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          margin: 0 auto;
+          display: grid;
+          grid-gap: 0rem;
+        }
+
+        .tech {
+            padding: 0.5em;
+            margin-left: .5em;
+            margin-right: .5em;
+            /* border-radius: 4px; */
+            /* outline: solid 1px #4F5659; */
+            /* text-decoration: none; */
+            text-align: center;
+        
+        }
+        .tech p {
+            color: #9684A1;
+        }
+        
