@@ -16,7 +16,14 @@ footer {
 }
 .link {
     margin: 0.5em;
+    
 }
+.link:hover {
+    fill: #4F5659;
+    color: #4F5659;
+    
+}
+
 
 .contact p {
     font-size: 16px;

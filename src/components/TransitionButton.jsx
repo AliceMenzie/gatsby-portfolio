@@ -5,7 +5,7 @@ import { BsChevronDown } from "@react-icons/all-files/bs/BsChevronDown";
 export default function TransitionButton() {
     return (
         <div className="wrapper">
-            <div className="button" >
+            <div idName="button" >
                 {/* < BsChevronBarDown size={50} /> */}
                 < BsChevronDown size={50} />
             </div>

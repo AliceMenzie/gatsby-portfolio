@@ -73,6 +73,13 @@ footer p {
     animation: move 2s ease-in;
 }
 
+#tech-slogan {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
+
 @media only screen and (max-width: 600px) {
     .logo{
         font-size: 3em;
@@ -80,7 +87,19 @@ footer p {
         animation: move 2s ease-in;
         overflow: hidden;
     }
-    
+    #logo{
+        width: 15em;
+        margin: 1em;
+        animation: move 2s ease-in;
+        overflow: hidden;
+        
+    }
+    #tech-slogan {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 1em;
+        padding: 1em;
+    }
   }
   
 
@@ -109,18 +128,17 @@ footer p {
 
   .button {
       margin: 1em;
-
+      border: none;
+      cursor: grab;
   }
 
-  @media only screen and (max-width: 600px) {
-    #logo{
-        width: 15em;
-        margin: 1em;
-        animation: move 2s ease-in;
-        overflow: hidden;
-        
-    }
+  .button-slogan {
+      font-size: 10px;
   }
+
+  /* @media only screen and (max-width: 600px) {
+    
+  } */
 
 /* #logo {
     margin: 1em 1em 5em 12em;
@@ -222,8 +240,8 @@ footer p {
   @media only screen and (min-width: 600px) {
     .button{
         /* width: 15em; */
-        margin-top: 6em;
-        margin-bottom: 6em;
+        margin-top: 5em;
+        margin-bottom: 6.6em;
         /* animation: move 2s ease-in;
         overflow: hidden; */
         
@@ -231,14 +249,14 @@ footer p {
   }
   @media only screen and (min-width: 1000px) {
     .button{
-        margin-top: 10em;
+        margin-top: 8em;
         margin-bottom: 5em;
     }
     .logo {
-        margin: 1.5em;
+        margin: 1em;
     }
     #logo {
-        margin: 1.5em;
+        margin: 1em;
     }
   }
 
@@ -249,6 +267,8 @@ footer p {
           display: grid;
           grid-gap: 0rem;
         }
+
+       
 
         .tech {
             padding: 0.5em;

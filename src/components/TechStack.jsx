@@ -17,7 +17,7 @@ import { SiTrello } from "@react-icons/all-files/si/SiTrello";
 export default function TechStack() {
     return (
         <div>
-            <h1 className="tech-slogan">Technology I Use</h1>
+            <h1 id="tech-slogan">Technology I Use</h1>
             <div className="stack">
                 {/* < DiRuby size={75} style={{ fill: '#985F99' }} /> with colour */}
                 <div className="tech">< DiRuby size={75} /><p>Ruby</p></div>
