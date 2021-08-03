@@ -7,21 +7,10 @@ import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 export default function Footer() {
     return (
         <footer >
-            <div>
-                <p>Lorem ipsum dolor sit amet,
-                     consectetur adipiscing elit. 
-                     Curabitur blandit augue nibh, 
-                     non iaculis mauris maximus sit amet.
-                      In ullamcorper vitae ligula in volutpat.
-                </p>
-
-            </div>
-            <div>
-                <FaLinkedin />
-                <FaGithub />
-            </div>
-            <div>
-                <p>Copyright 2021 AliceMenzie</p>
+            <div className={styles.contact}><p>Contact Me</p></div>
+            <div className={styles.links}>
+                <div className={styles.link}><FaLinkedin size={30} /> </div>
+                <div className={styles.link}><FaGithub size={30} /> </div>
             </div>
         </footer>
     )
