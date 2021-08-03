@@ -16,21 +16,23 @@ import { SiTrello } from "@react-icons/all-files/si/SiTrello";
 
 export default function TechStack() {
     return (
-        <div className="stack">
-            {/* < DiRuby size={75} style={{ fill: '#985F99' }} /> with colour */}
-            <div className="tech">< DiRuby size={75} /><p>Ruby</p></div>
-            <div className="tech"><SiRails size={75} /><p>Ruby on Rails</p></div>
-            <div className="tech"><FaGitAlt size={75} /><p>Git</p></div>
-            <div className="tech"><SiJavascript size={75} /><p>Javascript</p></div>
-            <div className="tech"><FaReact size={75} /><p>React</p></div>
-            <div className="tech"><SiHeroku size={75} /><p>Heroku</p></div>
-            <div className="tech"><SiNetlify size={75} /><p>Netlify</p></div>
-            <div className="tech"><SiGatsby size={75} /><p>Gatsby</p></div>
-            <div className="tech"><SiBootstrap size={75} /><p>Boostrap</p></div>
-            <div className="tech"><AiFillHtml5 size={75} /><p>HTML</p></div>
-            <div className="tech"><DiCss3 size={75} /><p>CSS</p></div>
-            <div className="tech"><SiTrello size={75} /><p>Trello</p></div>
-
+        <div>
+            <h1 className="tech-slogan">Technology I Use</h1>
+            <div className="stack">
+                {/* < DiRuby size={75} style={{ fill: '#985F99' }} /> with colour */}
+                <div className="tech">< DiRuby size={75} /><p>Ruby</p></div>
+                <div className="tech"><SiRails size={75} /><p>Ruby on Rails</p></div>
+                <div className="tech"><FaGitAlt size={75} /><p>Git</p></div>
+                <div className="tech"><SiJavascript size={75} /><p>Javascript</p></div>
+                <div className="tech"><FaReact size={75} /><p>React</p></div>
+                <div className="tech"><SiHeroku size={75} /><p>Heroku</p></div>
+                <div className="tech"><SiNetlify size={75} /><p>Netlify</p></div>
+                <div className="tech"><SiGatsby size={75} /><p>Gatsby</p></div>
+                <div className="tech"><SiBootstrap size={75} /><p>Boostrap</p></div>
+                <div className="tech"><AiFillHtml5 size={75} /><p>HTML</p></div>
+                <div className="tech"><DiCss3 size={75} /><p>CSS</p></div>
+                <div className="tech"><SiTrello size={75} /><p>Trello</p></div>
+            </div>
         </div>
     )
 }
