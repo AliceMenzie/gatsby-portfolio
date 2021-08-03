@@ -3,7 +3,7 @@ import "../styles/global.css"
 
 export default function HeroHome() {
     return (
-        <div>
+        <div className="hero">
             <svg id="logo" width="597" height="111" viewBox="0 0 597 111" fill="none" xmlns="http://www.w3.org/2000/svg">
                 {/* <!-- <mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="0.780029" y="0.459961" width="597" height="110" fill="black">
             <rect fill="white" x="0.780029" y="0.459961" width="597" height="110"/>
