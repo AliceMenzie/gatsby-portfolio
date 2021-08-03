@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 import "../styles/global.css"
 
 export default function Layout({ children }) {
@@ -10,9 +11,8 @@ export default function Layout({ children }) {
                 {/* content for each page will go here */}
                 {children}
             </div>
-            <footer className="footer">
-                <p>Copyright 2021 AliceMenzie</p>
-            </footer>
+            <Footer />
+            
 
         </div>
     )
