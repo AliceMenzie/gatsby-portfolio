@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+footer {
+    outline: solid 1px #4F5659;
+    overflow-x: hidden;
+    margin-top: 2em;
+}
+
+.links {
+    
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.link {
+    margin: 0.5em;
+}
+
+.contact p {
+    font-size: 16px;
+    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Lora', serif; */
+}
