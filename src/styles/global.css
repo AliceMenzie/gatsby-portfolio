@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +52,7 @@ nav {
 nav a {
     
     margin: 7.5%;
-    color: #6F98C0;
+    color: #9684A1;
     text-decoration: none;
 }
 
@@ -217,6 +217,29 @@ footer p {
   @keyframes appear {
       0% {opacity: 0;}
       100% {opacity: 100;}
+  }
+
+  @media only screen and (min-width: 600px) {
+    .button{
+        /* width: 15em; */
+        margin-top: 6em;
+        margin-bottom: 6em;
+        /* animation: move 2s ease-in;
+        overflow: hidden; */
+        
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .button{
+        margin-top: 10em;
+        margin-bottom: 5em;
+    }
+    .logo {
+        margin: 1.5em;
+    }
+    #logo {
+        margin: 1.5em;
+    }
   }
 
 
