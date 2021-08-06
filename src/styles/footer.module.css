@@ -1,32 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 footer {
-    outline: solid 1px #4F5659;
-    overflow-x: hidden;
-    margin-top: 2em;
+  outline: solid 1px #4f5659;
+  overflow: hidden;
+  margin-top: 2em;
 }
 
 .links {
-    
-    margin: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .link {
-    margin: 0.5em;
-    
+  margin: 0.5em;
 }
 .link:hover {
-    fill: #4F5659;
-    color: #4F5659;
-    
+  fill: #4f5659;
+  color: #4f5659;
 }
 
-
 .contact p {
-    font-size: 16px;
-    font-family: 'Cormorant Garamond', serif;
-    /* font-family: 'Lora', serif; */
+  font-size: 16px;
+  font-family: "Cormorant Garamond", serif;
+  /* font-family: 'Lora', serif; */
 }
