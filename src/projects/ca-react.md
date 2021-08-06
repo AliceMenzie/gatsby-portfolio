@@ -7,6 +7,15 @@ slug: ca-react-application
 thumb: ../images/ca-react.png
 ---
 
-### Heading 
+Libro is a fullstack application aimed at book lovers and enthusiasts. It is primarily for those who wish to keep a track of their reading activities. Libro's backend was made with Rails and its frontend uses React. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales leo et dui molestie, nec luctus lectus pulvinar. Fusce vulputate nulla in gravida semper. Praesent nec viverra sapien. Vivamus eget diam eu nibh efficitur maximus non non velit. Etiam interdum eros vel felis molestie, quis tincidunt arcu facilisis. Praesent dignissim sapien dolor, eget vulputate lorem euismod in. Praesent volutpat a felis tincidunt vestibulum. Donec eleifend quis mauris at rutrum. Nunc interdum dolor eget finibus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut fringilla varius ligula, id faucibus lectus sodales nec. Phasellus vel ipsum nunc. Sed ut finibus neque, id viverra sapien.
+
+
+[Backend](https://github.com/AliceMenzie/Libro_server)
+
+
+[Frontend](https://github.com/AliceMenzie/T3A2_client)
+
+
+
+[Live Site](https://libro-books.netlify.app/)

@@ -6,6 +6,11 @@ slug: ca-marketplace
 thumb: ../images/ca-marketplace.png
 ---
 
-### Heading 
+Local Marketplace is a Two-Sided Marketplace I developed whist studying my Diploma of IT at CoderAcadamy. It allows individuals to purchase and post goods online in their local area. I had a personal challenge of wanting to implement a payment system and was able to achieve this with the use of Stripe.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales leo et dui molestie, nec luctus lectus pulvinar. Fusce vulputate nulla in gravida semper. Praesent nec viverra sapien. Vivamus eget diam eu nibh efficitur maximus non non velit. Etiam interdum eros vel felis molestie, quis tincidunt arcu facilisis. Praesent dignissim sapien dolor, eget vulputate lorem euismod in. Praesent volutpat a felis tincidunt vestibulum. Donec eleifend quis mauris at rutrum. Nunc interdum dolor eget finibus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut fringilla varius ligula, id faucibus lectus sodales nec. Phasellus vel ipsum nunc. Sed ut finibus neque, id viverra sapien.
+
+
+[GitHub](https://github.com/AliceMenzie/A2T2_marketplace)
+
+
+[Live Site](https://localmarketplace.herokuapp.com/)
