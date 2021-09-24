@@ -10,33 +10,42 @@
 
 .wrapper h2 {
    color: #9684a1;
-  font-size: 5em;
+  font-size: 3rem;
   text-align: center;
 }
 
-.wrapper h4 {
-  font-size: 1.5em;
-  margin-bottom: 2em;
+.wrapper h3 {
+  font-size: 1.5rem;
+  padding: 2rem;
+  color: #9684a1;
   text-align: center;
 }
 
 .content {
-  margin: 3em;
+  margin: 1.5px;
 }
 
 .content p {
-  padding: 1em;
-  
-  margin: 3em;
+  padding: 1rem;
+  max-width: 600px;
+}
+
+img {
+  z-index: 1;
+  border-radius: 4px;
+}
+
+ul {
+  padding-left: 3rem;
 }
 
 .content a {
-  /* color: hotpink; */
   text-decoration: none;
-  background-color: #bbb8b3;
+  background-color: #4c2885;
   border-radius: 6px;
-  padding: 1em;
-  margin: 1em;
+  padding: 1rem;
+  margin: 6rem;
+  box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -50,10 +59,5 @@
         margin-bottom: 1em;
         text-align: center;
       }
-      .content {
-          text-align: center;
-        margin: 3em;
-    
-      }
-  
+      
 }

@@ -6,7 +6,6 @@ export default function TransitionButton() {
     return (
         <div className="wrapper">
             <div idName="button" >
-                {/* < BsChevronBarDown size={50} /> */}
                 < BsChevronDown size={50} />
             </div>
 
