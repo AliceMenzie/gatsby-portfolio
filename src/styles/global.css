@@ -28,6 +28,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   background-color: #36363a;
   overflow: hidden;
+  z-index: 2;
 }
 
 .nav-image {

@@ -26,8 +26,11 @@
 
 .content p {
   padding: 1em;
-  
   margin: 3em;
+}
+
+img {
+  z-index: 1;
 }
 
 .content a {
