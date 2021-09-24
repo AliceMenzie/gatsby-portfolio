@@ -14,24 +14,19 @@ body {
 }
 
 .layout {
-  /* max-width: 1200px; */
   margin: 0 auto;
   background-color: #36363a;
   color: #ede9e1;
 }
 
 nav {
-  /* min-height: 100%; */
+  position: fixed;
+  top: 0;
   min-width: 100%;
   outline: solid 1px #4f5659;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-row-gap: 6px;
-    grid-column-gap: 9px; */
-  /* margin-left: 0%; */
-  /* padding-right: 100%; */
   background-color: #36363a;
-  /* background-color: #4F5659; */
   overflow: hidden;
 }
 
