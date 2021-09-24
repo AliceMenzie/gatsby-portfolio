@@ -120,17 +120,6 @@ footer p {
   cursor: grab;
 }
 
-/* .button-slogan {
-  font-size: 10px;
-} */
-
-/* @media only screen and (max-width: 600px) {
-    
-  } */
-
-/* #logo {
-    margin: 1em 1em 5em 12em;
-} */
 
 #logo path:nth-child(1) {
   stroke-dasharray: 220.6px;
@@ -194,11 +183,18 @@ footer p {
   }
 }
 
-/* .button {
-    margin-left: 50em;
-    animation: appear 2s ease-in;
-    
-} */
+
+.button svg {
+  /* border: 1px solid red; */
+    text-decoration: none;
+    background-color: #4c2885;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 6rem;
+    box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
 .button:hover {
   animation: jiggle 2s;
   animation-iteration-count: infinite;
