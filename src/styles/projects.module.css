@@ -9,8 +9,6 @@
 }
 
 .project {
-    /* max-height: 500px;
-    max-width: 500px; */
     padding: 1em;
     margin-left: 2em;
     margin-right: 2em;
@@ -18,20 +16,17 @@
     outline: solid 1px #4F5659;
     text-decoration: none;
     text-align: center;
-    box-shadow: -5px 5px 25px 0px rgba(0,0,0,0.16), 5px 5px 25px 0px rgba(0,0,0,0.16);
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.16), 5px 5px 25px 0px rgba(0,0,0,0.16);
 
 
 }
 
 .project h2{
-    /* color: #6F98C0; */
     background: -webkit-linear-gradient(180deg, #9684A1, #EEF2F3);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* color: #9684A1; */
+    
 }
-
-
 
 .hero{
     font-size: 7em;

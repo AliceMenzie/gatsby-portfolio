@@ -15,7 +15,7 @@ I had a personal challenge of wanting to implement a payment system and was able
 
 This Project was implemented with agile methodologies such as the use use of user stories and a kanban workflow.
 
-Technologies &  Tools 
+**Technologies &  Tools** 
 
 - Ruby on Rails
 - PostgreSQL
@@ -25,6 +25,7 @@ Technologies &  Tools
 - Github
 - AWS S3
 - Stripe
+
 
 <br/>
 <br/>

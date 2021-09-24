@@ -8,11 +8,12 @@ thumb: ../images/fm-frontend-mentor-challenges.png
 
 
 
-Frontend Menotor is an online platform which offers coding challenges in varying degrees of difficulty. 
+
 
 ### The Challenges
+Frontend Menotor is an online platform which offers coding challenges in varying degrees of difficulty. 
 
-Each challenge provided offers a brief, for example I completed their Coding bootcamp testimonials slider challenged which included the brief:
+Each challenge provided offers a brief, for example I completed their Coding bootcamp testimonials slider challenge which included the brief:
 
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like
